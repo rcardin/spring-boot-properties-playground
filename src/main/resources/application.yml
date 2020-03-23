@@ -1,0 +1,12 @@
+integrations:
+  configurations:
+    - type: bugfraud
+      legalEntity: bank1
+      config: "bugFraudConfiguration"
+    - type: bugfraud
+      legalEntity: bank2
+      config: "anotherBugFraudConfiguration"
+    - type: seapweb
+      legalEntity: bank3
+      config:
+        url: "http://rcard.in/saymyname"
